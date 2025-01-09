@@ -46,7 +46,7 @@ const Banner = styled.figure`
     }
 
   h2{
-  font-size: 46px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 53.91px;
   text-align: left;
@@ -54,7 +54,7 @@ const Banner = styled.figure`
   }
 
   p{
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 21px;
   text-align: left;
@@ -78,7 +78,7 @@ const CategoriaTitulo = styled.h1`
 const Vazio = styled.main`
   padding-left:30px;
   font-size: 63px;
-  padding: 31.6svh 30px;
+  padding: 30svh 30px;
 `
 
 const Inicio = ({colaboradores, del, edit}) => {  

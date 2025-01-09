@@ -7,7 +7,7 @@ const Time = styled.section`
 
   h2{
     display:flex;
-    width:432px;
+    width: min(432px, 70vw);
     height:70px;
     border-radius:15px;
     background-color: ${props => props.$cor};
