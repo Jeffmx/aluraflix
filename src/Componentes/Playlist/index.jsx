@@ -6,14 +6,16 @@ import Edit       from "../EditarVideo";
 import Formulario from "../Formulario";
 
 const Colaborador =styled.div`
-  width: 432px;
   background-color: #000;
   border: 5px solid ${props => props.$cor};
   border-radius: 20px;
 
+  &, .thumb{
+    width: min(432px, 77vw);
+  }
+
   .thumb {
-    width:432px;
-    height:250px;
+    height:min(250px, 20svh);
     border-radius: 15px 15px 0px 0px;
   }
 `

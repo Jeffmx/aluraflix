@@ -9,6 +9,13 @@ const HeaderStyled = styled.header`
   background-color: #262626;
   justify-content:space-between;
 
+  @media (max-width: 375px) {
+    padding: 42px 10px;
+    img{
+      width: 50%;
+    }
+  }
+
   Link{
     color:red;
   }
