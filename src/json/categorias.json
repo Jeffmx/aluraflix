@@ -1,0 +1,30 @@
+[
+  {
+    "nome": "Programação",
+    "fundos": "#57C278"
+  },
+  {
+    "nome": "Front End",
+    "fundos": "#82CFFA"
+  },
+  {
+    "nome": "Data Science",
+    "fundos": "#A6D157"
+  },
+  {
+    "nome": "Devops",
+    "fundos": "#E06B69"
+  },
+  {
+    "nome": "UX e Design",
+    "fundos": "#DB6EBF"
+  },
+  {
+    "nome": "Mobile",
+    "fundos": "#FFBA05"
+  },
+  {
+    "nome": "Inovação e Gestão",
+    "fundos": "#FF8A29"
+  }
+]

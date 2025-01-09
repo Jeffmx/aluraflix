@@ -1,0 +1,52 @@
+.edit__background {
+  background-color: rgba(3, 18, 47, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.edit__container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+
+  width: min(865px,90vw);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  
+  margin: auto;
+  padding: 50px 5vw;
+  padding-bottom: 5svh;
+  padding-top: 0;
+  
+  background-color: #03122F;
+  border: 5px solid #6BD1FF;
+  border-radius: 15px;
+
+  h1{
+    color: #2271D1;
+  }
+}
+
+.edit__close {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding-top: 20px;
+}
+
+@media (max-width: 425px) {
+  .edit__container{
+    scale: .8;
+  }
+}
